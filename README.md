@@ -1,13 +1,16 @@
 # Advent of Code 2021 Rust Solutions 
 
-Hi, this repo contains my [Advent of Code 2021](https://adventofcode.com/2021) solutions written in Rust.
-The point of this project was to learn Rust from the *grounds up* & have some fun along the way.
+Hi! This repo contains solutions to all 50 [Advent of Code 2021](https://adventofcode.com/2021) puzzles.
+The goal of the project was to learn Rust from the *grounds up* & have some fun along the way.
 
-My solutions are by no means the fastest ones out there. I wanted to do my own research and come up with fresh ideas that work for me.
-It took me bit under 2 months to complete all of the 50 tasks in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) of 2022.
+Code that I provide is by no means the fastest one out there. There's many more efficient implementations on the internet.
+I wanted to arrive to conclusions based on my own research, ideas and effort.
 
-In the end it took me longer than I expected, but I'm proud that I followed through.
-And I'm happy that I can share this with **you** and the rest of open source community. Enjoy!
+In total, it took me bit under 2 months of work in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) months of 2022.
+Indeed, a bit more than I expected, but I followed through and I'm proud of the final product.
+
+Now that it is over, I am happy that I can share it with *you*, the reader, and the rest of open source community. 
+I encourage you to give AoC a shot if you haven't already and Enjoy!
 
 # Running solutions
 
@@ -15,6 +18,7 @@ Each day has its own folder. To run a solution, do this // TODO
 
 # Contact
 
-I'm looking into branching off from Fullstack development into Rust programming as my full time job. 
-If you're hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
+I am looking into branching off from fullstack Typescript development into more performance oriented Rust programming. 
+I'm a lifelong learner and diving into the unknown is my one true passion. As Socrates once said, *"Education is the kindling of a flame, not the filling of a vessel"*.
 
+If you're hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
