@@ -3,7 +3,7 @@
 Hi! This repo contains solutions to all 50 [Advent of Code 2021](https://adventofcode.com/2021) puzzles.
 The goal of the project was to learn Rust from the *grounds up* & have some fun along the way.
 
-Code that I provide is by no means the fastest one out there. There's many more efficient implementations on the internet.
+Code that I provide is by no means the fastest one out there. There are many more efficient implementations on the internet.
 I wanted to arrive to conclusions based on my own research, ideas and effort.
 
 In total, it took me bit under 2 months of work in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) months of 2022.
@@ -19,8 +19,8 @@ I encourage you to give AoC a shot if you haven't already and Enjoy!
 # Contact
 
 I am looking into branching off from fullstack Typescript development into more performance oriented Rust programming. 
-I'm a lifelong learner and diving into the unknown is my one true passion. As Socrates once said,
+I am a lifelong learner and diving into the unknown is my one true passion. As Socrates once said,
 
 *"Education is the kindling of a flame, not the filling of a vessel"*.
 
-If you're hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
+If you are hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
