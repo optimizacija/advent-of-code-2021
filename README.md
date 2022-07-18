@@ -9,7 +9,7 @@ I wanted to arrive to conclusions based on my own research, ideas and effort.
 In total, it took me bit under 2 months of work in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) months of 2022.
 Indeed, a bit more than I expected, but I followed through and I'm proud of the final product.
 
-Now that it is over, I am happy that I can share it with *you*, the reader, and the rest of open source community. 
+Now that it is over, I am happy to share it with *you*, the reader, and the rest of open source community. 
 I encourage you to give AoC a shot if you haven't already and Enjoy!
 
 # Running solutions
