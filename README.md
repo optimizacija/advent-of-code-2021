@@ -14,7 +14,7 @@ I encourage you to give AoC a shot if you haven't already and Enjoy!
 
 # Running solutions
 
-Each day has its own folder. To run a solution, do this // TODO
+// TODO: Each day has its own folder. To run a solution, do this
 
 # Contact
 
