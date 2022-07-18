@@ -14,7 +14,14 @@ I encourage you to give AoC a shot if you haven't already and Enjoy!
 
 # Running solutions
 
-// TODO: Each day has its own folder. To run a solution, do this
+Each solution to a puzzle has its own Rust project. So, just cd into the respective directory and run cargo in release mode.
+
+```zsh
+cd day01_part1/
+cargo run --release
+```
+
+You can also try them out with your input, by replacing the contents of the respective `data.in` files with your data.
 
 # Contact
 
