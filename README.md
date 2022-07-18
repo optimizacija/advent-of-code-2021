@@ -19,6 +19,8 @@ Each day has its own folder. To run a solution, do this // TODO
 # Contact
 
 I am looking into branching off from fullstack Typescript development into more performance oriented Rust programming. 
-I'm a lifelong learner and diving into the unknown is my one true passion. As Socrates once said, *"Education is the kindling of a flame, not the filling of a vessel"*.
+I'm a lifelong learner and diving into the unknown is my one true passion. As Socrates once said,
+
+*"Education is the kindling of a flame, not the filling of a vessel"*.
 
 If you're hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
