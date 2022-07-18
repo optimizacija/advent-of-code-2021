@@ -14,7 +14,7 @@ I encourage you to give AoC a shot if you haven't already and Enjoy!
 
 # Running solutions
 
-Each solution to a puzzle has its own Rust project. So, just cd into the respective directory and run cargo in release mode.
+Each solution has its own Rust project. So, just cd into the respective directory and run cargo in release mode.
 
 ```zsh
 cd day01_part1/
