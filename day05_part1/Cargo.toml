@@ -1,5 +1,8 @@
 [package]
-name = "day05_part1"
+name = "tmp"
 version = "0.1.0"
 edition = "2021"
 include = ["src/**/*", "Cargo.toml"]
+
+[dependencies]
+regex = "1"
