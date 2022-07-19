@@ -25,7 +25,7 @@ You can also try them out with your input, by replacing the contents of the resp
 
 # Contact
 
-I am looking into branching off from fullstack Typescript development into more performance oriented Rust programming. 
+I started looking into branching off from Typescript development into Rust programming. 
 I am a lifelong learner and diving into the unknown is my one true passion. As Socrates once said,
 
 *"Education is the kindling of a flame, not the filling of a vessel"*.
