@@ -67,20 +67,20 @@ fn try_hit(start_velocity: &Point, area: &Area) -> Option<i64> {
     None
 }
 
-fn find_optimal_velocity(area: &Area) -> i64 {
-    let mut max_y = 0;
+fn count_viable_starting_velocities(area: &Area) -> i64 {
+    let mut count = 0;
     for x in -2*area.x2..2*area.x2 {
         for y in (-2*area.y2.abs())..(2 * area.y2.abs()) {
-            if let Some(hit) = try_hit(&Point{ x, y }, &area) {
-                max_y = std::cmp::max(max_y, hit);
+            if let Some(_) = try_hit(&Point{ x, y }, &area) {
+                count += 1;
             }
         }
     }
-    max_y
+    count
 }
 
 fn main() {
     let area = load_from_file("data.in");
-    println!("{:}", find_optimal_velocity(&area));
+    println!("{:}", count_viable_starting_velocities(&area));
 }
 
