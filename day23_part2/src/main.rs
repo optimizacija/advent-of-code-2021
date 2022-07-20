@@ -323,8 +323,6 @@ fn organize_amphipods(char_states: &Vec<CharState>) -> Option<i64> {
         cost: 0,
     });
     
-    let mut paths: HashMap<BoardState, BoardState> = HashMap::new();
-    
     while let Some(board_state) = pq.pop() {
         if let Some(&cost) = cache.get(&board_state.char_states) {
             if board_state.cost != cost {
@@ -337,11 +335,6 @@ fn organize_amphipods(char_states: &Vec<CharState>) -> Option<i64> {
         }
         
         let next_states: Vec<BoardState> = get_next_board_states(&board_state, &mut cache);
-
-        // for path reconstruction (debug)
-        for ns in &next_states {
-            paths.insert(ns.clone(), board_state.clone());
-        }
         
         pq.extend(next_states);
     }
