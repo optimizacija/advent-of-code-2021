@@ -1,0 +1,8 @@
+[package]
+name = "day16_part1"
+version = "0.1.0"
+edition = "2021"
+include = ["src/**/*", "Cargo.toml"]
+
+[dependencies]
+bit-vec = "0.6"
