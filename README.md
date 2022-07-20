@@ -10,7 +10,7 @@ In total, it took me bit under 2 months of work in my spare time during the [sum
 Indeed, a bit more than I expected, but I followed through and I am proud of the final product.
 
 Now that it is over, I am happy to share it with *you*, the reader, and the rest of open source community. 
-I encourage you to give AoC a shot if you haven't already and enjoy!
+I encourage you to give AoC a [shot](https://adventofcode.com/2021/day/1) if you haven't already and enjoy!
 
 # Running solutions
 
