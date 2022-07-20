@@ -111,8 +111,8 @@ fn get_digit(mut value: i64, msb_digit_idx: u32) -> i64 {
     value % 10
 }
 
-fn part1(instructions: &Vec<Instruction>) -> i64 {
-    let mut val = 99999999999999;
+fn part2(instructions: &Vec<Instruction>) -> i64 {
+    let mut val = 11111111111111;
     let mut z = i64::MAX;
     
     let mut vars = [0i64; 4];
@@ -120,7 +120,7 @@ fn part1(instructions: &Vec<Instruction>) -> i64 {
         let mut min_val = i64::MAX;
         let mut min_z = i64::MAX;
         for digit_i in 0usize..14 {
-            for digit in ('1'..='9').rev() {
+            for digit in '1'..='9' {
                 let mut digits = val.to_string();
                 digits.replace_range(digit_i..=digit_i, &digit.to_string());
                 let new_val = digits.parse::<i64>().unwrap();
@@ -145,6 +145,6 @@ fn part1(instructions: &Vec<Instruction>) -> i64 {
 
 fn main() {
     let instructions = load_from_file("data.in");
-    println!("{:}", part1(&instructions));
+    println!("{:}", part2(&instructions));
 } 
 
