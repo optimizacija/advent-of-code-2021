@@ -73,5 +73,5 @@ fn get_specified_quantaty(polymer_config: &PolymerConfig) -> i64 {
 fn main() {
     let polymer_config = load_from_file("data.in");
     let size = get_specified_quantaty(&polymer_config);
-    println!("{:?}", size);
+    println!("{:}", size);
 }

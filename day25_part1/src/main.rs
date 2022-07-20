@@ -94,6 +94,6 @@ fn part1(mut matrix: Matrix) -> u64 {
 
 fn main() {
     let matrix = load_from_file("data.in");
-    println!("{:?}", part1(matrix));
+    println!("{:}", part1(matrix));
 } 
 

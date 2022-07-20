@@ -154,6 +154,6 @@ fn get_max_magnitude(regulars_vec: Vec<Regulars>) -> u32 {
 
 fn main() {
     let regulars_vec = load_from_file("data.in");
-    println!("{:?}", get_max_magnitude(regulars_vec));
+    println!("{:}", get_max_magnitude(regulars_vec));
 } 
 

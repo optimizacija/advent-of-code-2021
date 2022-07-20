@@ -117,6 +117,6 @@ fn part_1(input: &Input) -> usize {
 
 fn main() {
     let input = load_from_file("data.in");
-    println!("{:?}", part_1(&input));
+    println!("{:}", part_1(&input));
 } 
 

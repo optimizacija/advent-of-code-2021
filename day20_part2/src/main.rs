@@ -117,6 +117,6 @@ fn count_enhanced_lit_pixels(input: &Input) -> usize {
 
 fn main() {
     let input = load_from_file("data.in");
-    println!("{:?}", count_enhanced_lit_pixels(&input));
+    println!("{:}", count_enhanced_lit_pixels(&input));
 } 
 

@@ -96,7 +96,6 @@ fn build_packet_tree(bit_vec: &BitVec, start_idx: usize, end_idx: usize) -> (usi
     while i < end_idx {
         let bit = bit_vec[i];
         
-        // println!("{:?}: {:}", read_mode, bit as u8);
         match read_mode {
             TraverseMode::ReadVersion(tm_counter) => {
                 packet.version <<= 1;

@@ -162,7 +162,6 @@ fn get_scanner_dependencies_and_orient_scanners(scanners: &mut Vec<Scanner>) -> 
                 rotate(beacons_j, &rot, &mut beacons_buf);
 
                 if let Some(offset) = get_scanner_offset(&scanners[i].beacons, &beacons_buf) {
-                    // println!("scanners matching: {:}, {:}, {:?}", i, j, offset);
                     scanners[j].beacons = beacons_buf;
                     scan_deps[j] = ScanDep {
                         parent: i,

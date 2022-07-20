@@ -96,7 +96,6 @@ fn build_packet_tree(bit_vec: &BitVec, start_idx: usize, end_idx: usize) -> (usi
     while i < end_idx {
         let bit = bit_vec[i];
         
-        // println!("{:?}: {:}", read_mode, bit as u8);
         match read_mode {
             TraverseMode::ReadVersion(tm_counter) => {
                 packet.version <<= 1;
@@ -252,10 +251,8 @@ fn get_version_sum(root_packet: &Packet) -> u64 {
 
 fn main() {
     let bit_vec = load_from_file("data.in");
-    // println!("{:?}", bit_vec);
     let root_packet = build_packet_tree(&bit_vec, 0, bit_vec.len());
-    // println!("{:#?}", root_packet.1);
     let version_sum = get_version_sum(&root_packet.1);
-    println!("{:?}", version_sum);
+    println!("{:}", version_sum);
 }
 
