@@ -9,12 +9,12 @@ I wanted to arrive to conclusions based on my own research, ideas and effort.
 In total, it took me bit under 2 months of work in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) months of 2022.
 Indeed, a bit more than I expected, but I followed through and I am proud of the final product.
 
-Now that it is over, I am happy to share it with *you*, the reader, and the rest of open source community. 
+Now that it is over, I am happy to share it with you and the rest of open source community. 
 I encourage you to give AoC a [shot](https://adventofcode.com/2021/day/1) if you haven't already and enjoy!
 
 # Running solutions
 
-Each solution has its own Rust project. So, just cd into the respective directory and run cargo in release mode.
+Each solution is its own Rust project. So, just cd into the respective directory and run cargo in release mode.
 
 ```zsh
 cd day01_part1/
@@ -26,7 +26,7 @@ You can also try them out with your input, by replacing the contents of the resp
 # Contact
 
 I started looking into branching off from Typescript development into Rust programming. 
-I am a lifelong learner and diving into the unknown is my one true passion. As Socrates once said,
+I am a lifelong learner and diving into the unknown is my one true passion. Socrates once said,
 
 *"Education is the kindling of a flame, not the filling of a vessel"*.
 
