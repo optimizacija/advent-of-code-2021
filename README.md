@@ -3,7 +3,7 @@
 Hi! This repo contains solutions to all 50 [Advent of Code 2021](https://adventofcode.com/2021) puzzles.
 The goal of the project was to learn Rust from the *grounds up* & have some fun along the way.
 
-Code that I provide is by no means the fastest one out there. There are many more efficient implementations on the internet.
+Code that I provide is by no means the fastest one out there. There are some more efficient implementations on the internet.
 I wanted to arrive to conclusions based on my own research, ideas and effort.
 
 In total, it took me bit under 2 months of work in my spare time during the [summer](https://en.wikipedia.org/wiki/Christmas_in_July) months of 2022.
