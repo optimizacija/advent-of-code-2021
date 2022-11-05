@@ -19,8 +19,5 @@ You can also try them out with your input, by replacing the contents of the resp
 # Contact
 
 I started looking into branching off from Typescript development into Rust programming. 
-I am a lifelong learner and diving into the unknown is my one true passion. Socrates once said,
-
-*"Education is the kindling of a flame, not the filling of a vessel"*.
 
 If you are hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
