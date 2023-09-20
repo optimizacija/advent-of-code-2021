@@ -15,9 +15,3 @@ cargo run --release
 ```
 
 You can also try them out with your input, by replacing the contents of the respective `data.in` files with your data.
-
-# Contact
-
-I started looking into branching off from Typescript development into Rust programming. 
-
-If you are hiring, feel free to contact me on [Linkedin](https://www.linkedin.com/in/jan-male%C5%A1-49013616a/).
